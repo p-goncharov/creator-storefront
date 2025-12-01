@@ -1,12 +1,12 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/creators/:id",
-      "destination": "/api/creators"
+  "functions": {
+    "api/creators/index.js": {
+      "memory": 1024,
+      "maxDuration": 10
     },
-    {
-      "source": "/api/creators",
-      "destination": "/api/creators"
+    "api/creators/[id].js": {
+      "memory": 1024,
+      "maxDuration": 10
     }
-  ]
+  }
 }
