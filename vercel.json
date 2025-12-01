@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/creators/:id",
+      "destination": "/api/creators"
+    },
+    {
+      "source": "/api/creators",
+      "destination": "/api/creators"
+    }
+  ]
+}
